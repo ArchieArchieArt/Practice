@@ -5,6 +5,7 @@ public class LessonLastSymbolOrPreLastSymbol {
         byte[] input = new byte[256];
         if(System.in.read(input) == 0)
             System.exit(0);
+
         String wordOne = (new String(input)).trim();
         System.out.println("Got string: '" + wordOne +"'");
 
