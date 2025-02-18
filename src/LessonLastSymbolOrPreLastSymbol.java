@@ -1,6 +1,7 @@
 public class LessonLastSymbolOrPreLastSymbol {
 
     public static void main(String[] args) throws Exception {
+
         System.out.print("Input your word, please: ");
         byte[] input = new byte[256];
         if(System.in.read(input) == 0)
