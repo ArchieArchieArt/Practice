@@ -16,10 +16,6 @@ public class LessonConditions {
         int number = Integer.parseInt (stringOne);
         System.out.println("Got number: '" + number +"'");
 
-        if (((number >= -4) && (number <= 11)) || ((number >= 13) && (number <= 15)) || (number == 20)) {
-            System.out.println("Is TRUE");
-        } else {
-            System.out.println("Is FALSE");
-        }
+        System.out.printf("Is %b\n", ((number >= -4) && (number <= 11)) || ((number >= 13) && (number <= 15)) || (number == 20));
     }
 }
