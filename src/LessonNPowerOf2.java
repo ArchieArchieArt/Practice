@@ -13,11 +13,14 @@ public class LessonNPowerOf2 {
         int powerOfN = newScanner.nextInt();
         System.out.println("Got number: '" + powerOfN +"'");
 
-        int a = 2;
+        int a = 1;
 
-        for(int two = 2; a <= powerOfN; a++){
+        for(int two = 1; a <= powerOfN; a++){
             two = two * 2;
-            System.out.println("The number is " + two);
+
+            if(a == powerOfN){
+                System.out.println("The number is " + two);
+            }
         }
     }
 }
