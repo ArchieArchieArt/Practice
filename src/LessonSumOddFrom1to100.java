@@ -1,19 +1,22 @@
 /**
- * Найдите сумму всех целых чисел от 1 до 100.
+ * Найдите сумму всех целых нечётных чисел от 1 до 100.
  */
 public class LessonSumOddFrom1to100 {
 
     public static void main(String[] args) {
 
+        int number;
         int sum = 0;
-        int i = 0;
 
-        while (i < 100) {
-            i++;
-            if (i % 2 != 0)
-                continue;
-            sum += i;
+        for (number = 1; number <= 100; number++) {
+
+            if(number % 2 != 0){
+                sum += number;
+            }
+
+            if(number == 100){
+                System.out.println(sum);
+            }
         }
-        System.out.println(sum);
     }
 }

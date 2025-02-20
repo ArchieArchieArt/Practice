@@ -13,9 +13,9 @@ public class LessonSumOfChar {
         char chr2 = '2';
         char chr3 = '3';
 
-        int int1 = Character.getNumericValue(chr1);
-        int int2 = Character.getNumericValue(chr2);
-        int int3 = Character.getNumericValue(chr3);
+        int int1 = chr1 - '0';
+        int int2 = chr2 - '0';
+        int int3 = chr3 - '0';
 
         int sum = int1 + int2 + int3;
 
