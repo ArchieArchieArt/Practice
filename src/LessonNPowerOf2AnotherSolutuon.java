@@ -14,6 +14,10 @@ public class LessonNPowerOf2AnotherSolutuon {
         System.out.println("Got number: '" + powerOfN +"'");
 
         int number = 1 << powerOfN;
-        System.out.println(number);
+
+        for(int i = number; i >= number; powerOfN /= 2){
+            System.out.println(i);
+        }
+
     }
 }

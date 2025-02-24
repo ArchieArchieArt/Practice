@@ -17,8 +17,8 @@ public class LessonRiversOutput {
 
         int lengthOfWordOne = wordOne.length();
 
-        for (int lengthOfWordOneMinusOne = lengthOfWordOne - 1; lengthOfWordOneMinusOne > -1; lengthOfWordOneMinusOne--) {
-            char oneChar = wordOne.charAt(lengthOfWordOneMinusOne);
+        for (int i = lengthOfWordOne - 1; i > -1; i--) {
+            char oneChar = wordOne.charAt(i);
             System.out.println("Result is: " + oneChar);
         }
     }
