@@ -13,10 +13,7 @@ public class LessonSumOddFrom1to100 {
             if(number % 2 != 0){
                 sum += number;
             }
-
-            if(number == 100){
-                System.out.println(sum);
-            }
         }
+        System.out.println(sum);
     }
 }

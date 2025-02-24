@@ -10,14 +10,18 @@ public class LessonNPowerOf2AnotherSolutuon {
         System.out.print("Input power of N, please: ");
         Scanner newScanner = new Scanner(System.in);
 
-        int powerOfN = newScanner.nextInt();
-        System.out.println("Got number: '" + powerOfN +"'");
+        int N = newScanner.nextInt();
+        System.out.println("Got number: '" + N +"'");
 
-        int number = 1 << powerOfN;
-
-        for(int i = number; i >= number; powerOfN /= 2){
-            System.out.println(i);
+        if (N == 0) {
+            System.out.println("Zero is not acceptable!");
+            System.exit(0);
         }
 
+        int a = 1 << N;
+
+        for(int i = 2; i <= a; i = i * 2){
+            System.out.println(i);
+        }
     }
 }

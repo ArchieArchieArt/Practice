@@ -18,11 +18,11 @@ public class LessonNPowerOf2 {
             System.exit(0);
         }
 
-        int a = 1;
+        int j = 1;
 
         for(int i = 1; i <= N; i++){
-            a = a * 2;
-            System.out.println("The number is " + a);
+            j *= 2;
+            System.out.println("The number is " + j);
         }
     }
 }

@@ -10,10 +10,7 @@ public class LessonSumFrom1to100 {
 
         for (number = 1; number <= 100; number++) {
             sum += number;
-
-            if(number == 100){
-                System.out.println(sum);
-            }
         }
+        System.out.println(sum);
     }
 }
