@@ -9,11 +9,9 @@ public class LessonGbToMbKbByte {
     public static void main(String[] args) {
 
         float gb = 35.24f;
-        double dGB = Double.parseDouble(String.valueOf(gb));
-
-        double mb = dGB * 1024;
-        double kb = dGB * 1024 * 1024;
-        double bytes = dGB * 1024 * 1024 * 1024;
+        double mb = gb * 1024;
+        double kb = gb * 1024 * 1024;
+        double bytes = gb * 1024 * 1024 * 1024;
 
         System.out.println(mb);
         System.out.println(kb);

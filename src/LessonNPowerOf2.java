@@ -13,11 +13,6 @@ public class LessonNPowerOf2 {
         int N = newScanner.nextInt();
         System.out.println("Got number: '" + N +"'");
 
-        if (N == 0) {
-            System.out.println("Zero is not acceptable!");
-            System.exit(0);
-        }
-
         int j = 1;
 
         for(int i = 1; i <= N; i++){

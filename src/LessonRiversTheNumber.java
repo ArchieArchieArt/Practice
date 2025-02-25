@@ -7,14 +7,12 @@
 public class LessonRiversTheNumber {
 
     public static void main(String[] args) {
+        int a = 12345;
 
-        int i = 12345;
-
-        String str = String.valueOf(i);
-        StringBuilder builder = new StringBuilder(str);
-        builder.reverse();
-
-        int result = Integer.parseInt(builder.toString());
-        System.out.println("Result is: " + result);
+        while (a >= 1) {
+            int z = a % 10;
+            a = a / 10;
+            System.out.print(z);
+        }
     }
 }

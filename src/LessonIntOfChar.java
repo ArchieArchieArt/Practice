@@ -18,8 +18,7 @@ public class LessonIntOfChar {
         int int2 = chr2 - '0';
         int int3 = chr3 - '0';
 
-        int z = Integer.parseInt(int1 + String.valueOf(int2) + int3);
-
+        int z = (int1 * 100) + (int2 * 10) + int3;
         System.out.println(z);
     }
 }

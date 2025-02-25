@@ -6,14 +6,14 @@
 public class LessonDivisorsOfFloat {
 
     public static void main(String[] args) {
+
         float num = 12345;
+        int i = 0;
 
-        for (int i = 0; i < num; i++) {
+        while (num >= 10) {
             num = num / 2;
-
-            if(num < 10){
-                System.out.println("Number of iteration: " + i);
-            }
+            i += 1;
         }
+        System.out.println("Number of iteration: " + i);
     }
 }

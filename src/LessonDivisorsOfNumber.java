@@ -6,11 +6,11 @@
 public class LessonDivisorsOfNumber {
 
     public static void main(String[] args) {
-        int i = 12;
+        int num = 12;
 
-        for (int a = 1; a <= 12; a++) {
-            if(i % a == 0){
-                System.out.println(a);
+        for (int i = 1; i < 13; i++) {
+            if(num % i == 0){
+                System.out.println(i);
             }
         }
     }

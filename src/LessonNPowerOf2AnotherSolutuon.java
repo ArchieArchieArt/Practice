@@ -12,16 +12,12 @@ public class LessonNPowerOf2AnotherSolutuon {
 
         int N = newScanner.nextInt();
         System.out.println("Got number: '" + N +"'");
+        System.out.println("The 0 power of 2 is 1");
 
-        if (N == 0) {
-            System.out.println("Zero is not acceptable!");
-            System.exit(0);
-        }
-
-        int a = 1 << N;
-
-        for(int i = 2; i <= a; i = i * 2){
-            System.out.println(i);
+        int a = 1;
+        for(int i = 0; i <= N; i++){
+            a = a << 1;
+            System.out.println("The " + i + " power of 2 is " + a);
         }
     }
 }
