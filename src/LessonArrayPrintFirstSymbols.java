@@ -3,7 +3,6 @@
  * String[] arr = {"ab", "cd", "ef"};
  * Выведите в консоль первые символы элементов этого массива.
  */
-
 public class LessonArrayPrintFirstSymbols {
 
     public static void main(String[] args) {
