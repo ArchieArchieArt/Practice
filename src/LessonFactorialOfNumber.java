@@ -10,9 +10,8 @@ public class LessonFactorialOfNumber {
         int prd = 1;
 
         while(num >= 1) {
-            int a = num % 10;
-            num /= 10;
-            prd = prd * a;
+            prd *= num;
+            num -= 1;
         }
         System.out.println(prd);
     }

@@ -9,7 +9,7 @@ public class LessonSumOfEvenSymbolsInNumber {
         int num = 12345;
         int sum = 0;
 
-        while(num >= 1) {
+        while(num > 1) {
             int a = num % 10;
             num /= 10;
 
