@@ -8,11 +8,8 @@ public class LessonSumOddFrom1to100 {
         int number;
         int sum = 0;
 
-        for (number = 1; number <= 100; number++) {
-
-            if(number % 2 != 0){
-                sum += number;
-            }
+        for (number = 1; number <= 100; number += 2) {
+            sum += number;
         }
         System.out.println(sum);
     }
